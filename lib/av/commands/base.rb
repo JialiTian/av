@@ -163,7 +163,7 @@ module Av
 
       # ffmpeg and avconf both have the same seeking params
       def filter_seek seek
-        add_input_param ss: seek
+        # add_input_param ss: seek
         self
       end
 
